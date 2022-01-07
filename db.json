@@ -1,14 +1,24 @@
-{   
-  "items": [
-    { "id": 1, "code": "1111", "price": 100, "loc": "location 1", "desc": "Description 1", "mod": "mod1", "fee": 10 },
-    { "id": 2, "code": "2222", "price": 200, "loc": "location 2", "desc": "Description 2", "mod": "mod2", "fee": 15 },
-    { "id": 3, "code": "3333", "price": 300, "loc": "location 3", "desc": "Description 3", "mod": "mod3", "fee": 20 },
-    { "id": 4, "code": "1111", "price": 150, "loc": "location 1", "desc": "Description 1", "mod": "mod3", "fee": 15 }
+{
+"items": [
+    { "id": 1, "code": "1111", "price": "100", "loc": "location 1", "desc": "Description 1", "mod": "mod1", "fee": "10" },
+    { "id": 2, "code": "2222", "price": "200", "loc": "location 2", "desc": "Description 2", "mod": "mod2", "fee": "15" },
+    { "id": 3, "code": "3333", "price": "300", "loc": "location 3", "desc": "Description 3", "mod": "mod3", "fee": "20" },
+    { "id": 4, "code": "1111", "price": "150", "loc": "location 1", "desc": "Description 1", "mod": "mod3", "fee": "15" }
   ],
   "locations": [
     { "id": 1, "loc": "location 1", "longDesc": "somewhere for loc 1" },
     { "id": 2, "loc": "location 2", "longDesc": "somewhere for loc 2" },
     { "id": 3, "loc": "location 3", "longDesc": "somewhere for loc 3" },
     { "id": 4, "loc": "location 4", "longDesc": "somewhere for loc 4" }
-  ]
+   ], 
+  "places": [
+    { "id": 1, "loc": "place to be 1", "longDesc": "this is a great place" },
+    { "id": 2, "loc": "somewhere else", "longDesc": "this is another good place" },
+   ],
+  "mod": [
+    { "id": 1, "mod": "mod1" },
+    { "id": 2, "mod": "mod2" },
+    { "id": 3, "mod": "mod3" },
+    { "id": 4, "mod": "mod4" }
+   ]
 }
