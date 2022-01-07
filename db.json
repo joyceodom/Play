@@ -10,15 +10,5 @@
     { "id": 2, "loc": "location 2", "longDesc": "somewhere for loc 2" },
     { "id": 3, "loc": "location 3", "longDesc": "somewhere for loc 3" },
     { "id": 4, "loc": "location 4", "longDesc": "somewhere for loc 4" }
-  ], 
-  "places": [
-    { "id": 1, "loc": "place to be 1", "longDesc": "this is a great place" },
-    { "id": 2, "loc": "somewhere else", "longDesc": "this is another good place" },
-  ],
-  "mod": [
-    { "id": 1, "mod": "mod1" },
-    { "id": 2, "mod": "mod2" },
-    { "id": 3, "mod": "mod3" },
-    { "id": 4, "mod": "mod4" }
   ]
 }
