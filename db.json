@@ -13,7 +13,7 @@
   ],
   "places": [
     { "id": 1, "loc": "place to be 1", "longDesc": "this is a great place" },
-    { "id": 2, "loc": "somewhere else", "longDesc": "this is another good place" },
+    { "id": 2, "loc": "somewhere else", "longDesc": "this is another good place" }
   ],
   "mod": [
     { "id": 1, "mod": "mod1" },
