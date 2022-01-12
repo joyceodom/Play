@@ -5,16 +5,5 @@
     { "coid": 3, "cptcode": "22222", "id": "1000045", "fee": "300", "pos": "FAC", "desc": "X-RAY EXAM OF ANKLE", "mod": "26", "discount": 20, "discpct": "15%"},
     { "coid": 1, "cptcode": "12345", "id": "1000001", "fee": "150", "pos": "NF", "desc": "X-RAY EXAM OF FEMUR 1", "mod": "TC", "discount": 15, "discpct": "10%"},
     { "coid": 1, "cptcode": "12234", "id": "2000001", "fee": "150", "pos": "NF", "desc": "CONTACT LENS FITTING", "mod": "", "discount": 15, "discpct": "10%"}
-  ],
-  "schedules": [
-    { "coid": 1, "pos": "FAC", "name": "TN FAC 200-300", "id": "1000001" },
-    { "coid": 1, "pos": "NF", "name": "TN NF 200-300" , "id": "2000001"},
-    { "coid": 2, "pos": "FAC", "name": "MO-KS FAC 200-300", "id": "1000023" },
-    { "coid": 3, "pos": "NF", "name": "MISSION NF" , "id": "1000045"}   
-  ],
-  "mod": [
-    { "id": 1, "mod": "" },
-    { "id": 2, "mod": "TC" },
-    { "id": 3, "mod": "26" },   
   ]
 }
