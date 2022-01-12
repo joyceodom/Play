@@ -1,9 +1,5 @@
 {
   "items": [
-    { "coid": 1, "cptcode": "12345", "id": "1000001", "fee": "100", "pos": "FAC", "desc": "X-RAY EXAM OF FEMUR 1", "mod": "", "discount": 10 , "discpct": "10%"},
-    { "coid": 2, "cptcode": "11111", "id": "1000023", "fee": "200", "pos": "FAC", "desc": "VIRUS INOCULATION, TISSUE", "mod": "TC", "discount": 20, "discpct": "10%"},
-    { "coid": 3, "cptcode": "22222", "id": "1000045", "fee": "300", "pos": "FAC", "desc": "X-RAY EXAM OF ANKLE", "mod": "26", "discount": 20, "discpct": "15%"},
-    { "coid": 1, "cptcode": "12345", "id": "1000001", "fee": "150", "pos": "NF", "desc": "X-RAY EXAM OF FEMUR 1", "mod": "TC", "discount": 15, "discpct": "10%"},
-    { "coid": 1, "cptcode": "12234", "id": "2000001", "fee": "150", "pos": "NF", "desc": "CONTACT LENS FITTING", "mod": "", "discount": 15, "discpct": "10%"}
+    { "coid": 1, "cptcode": "12345", "id": "1000001", "fee": "100", "pos": "FAC", "desc": "X-RAY EXAM OF FEMUR 1", "mod": "", "discount": 10 , "discpct": "10%" }
   ]
 }
