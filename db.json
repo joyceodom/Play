@@ -1,6 +1,6 @@
 {
   "items": [
-    { "coid": 1, "cptcode": "12345", "id": "1000001", "fee": "100", "placeofservice": "FAC", "desc": "X-RAY EXAM OF FEMUR 1", "modifier": "none", "discount": 10 , "DiscountPct": "10%", "DiscountedFee": "90" },
+    { "coid": 1, "cptcode": "12345", "id": "1000001", "fee": "100", "placeofservice": "FAC", "desc": "X-RAY EXAM OF FEMUR 1", "modifier": "None", "discount": 10 , "DiscountPct": "10%", "DiscountedFee": "90" },
     { "coid": 2, "cptcode": "11111", "id": "1000023", "fee": "200", "placeofservice": "FAC", "desc": "VIRUS INOCULATION, TISSUE", "modifier": "TC", "discount": 20, "DiscountPct": "10%", "DiscountedFee": "180" },
     { "coid": 3, "cptcode": "22222", "id": "1000045", "fee": "300", "placeofservice": "FAC", "desc": "X-RAY EXAM OF ANKLE", "modifier": "TwentySix", "discount": 20, "DiscountPct": "15%", "DiscountedFee": "280" },
     { "coid": 1, "cptcode": "12345", "id": "1000001", "fee": "150", "placeofservice": "NF", "desc": "X-RAY EXAM OF FEMUR 1", "modifier": "TC", "discount": 15, "DiscountPct": "10%", "DiscountedFee": "135" },
