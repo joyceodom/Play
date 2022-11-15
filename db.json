@@ -1,25 +1,35 @@
 {
-  "items": [
-    { "coid": 1, "cptcode": "12345", "id": "1000001", "fee": "100", "placeofservice": "FAC", "desc": "X-RAY EXAM OF FEMUR 1", "modifier": "None", "discount": 10 , "DiscountPct": "10%", "DiscountedFee": 90 },
-    { "coid": 2, "cptcode": "11111", "id": "1000023", "fee": "200", "placeofservice": "FAC", "desc": "VIRUS INOCULATION, TISSUE", "modifier": "TC", "discount": 20, "DiscountPct": "10%", "DiscountedFee": 180 },
-    { "coid": 3, "cptcode": "22222", "id": "1000045", "fee": "300", "placeofservice": "FAC", "desc": "X-RAY EXAM OF ANKLE", "modifier": "TwentySix", "discount": 20, "DiscountPct": "15%", "DiscountedFee": 280 },
-    { "coid": 1, "cptcode": "12345", "id": "1000001", "fee": "150", "placeofservice": "NF", "desc": "X-RAY EXAM OF FEMUR 1", "modifier": "TC", "discount": 15, "DiscountPct": "10%", "DiscountedFee": 135 },
-    { "coid": 1, "cptcode": "12234", "id": "2000001", "fee": "150", "placeofservice": "NF", "desc": "CONTACT LENS FITTING", "modifier": "None", "discount": 15, "DiscountPct": "10%", "DiscountedFee": 135 }
-  ],
-  "locations": [
-    { "id": 1, "loc": "location 1", "longDesc": "somewhere for loc 1" },
-    { "id": 2, "loc": "location 2", "longDesc": "somewhere for loc 2" },
-    { "id": 3, "loc": "location 3", "longDesc": "somewhere for loc 3" },
-    { "id": 4, "loc": "location 4", "longDesc": "somewhere for loc 4" }
-  ],
-  "places": [
-    { "id": 1, "loc": "place to be 1", "longDesc": "this is a great place" },
-    { "id": 2, "loc": "somewhere else", "longDesc": "this is another good place" }
-  ],
-  "mod": [
-    { "id": 1, "mod": "mod1" },
-    { "id": 2, "mod": "mod2" },
-    { "id": 3, "mod": "mod3" },
-    { "id": 4, "mod": "mod4" }
-  ]
-} 
+	"patients": [{
+			"firstName": "Frank",
+			"lastName": "Murphy",
+			"dob": "7/4/69",
+			"mrn": "11123",
+			"emr": "ECW",
+			"appointments": [{
+					"appdatetime": "12/2/2022",
+					"provider": "Jane D.",
+					"providernpi": "56789012"
+				}, {
+					"appdatetime": "12/2/2022",
+					"provider": "Tom T.",
+					"providernpi": "123456877"
+				}
+
+			]
+		},
+		{
+			"firstName": "Gina",
+			"lastName": "Jabowski",
+			"email": "2/2/74",
+			"mrn": "222234",
+			"emr": "EPIC",
+			"appointments": [{
+					"appdatetime": "12/10/2022",
+					"provider": "John D.",
+					"providernpi": "7778899"
+				}
+
+			]
+		}
+	]
+}
